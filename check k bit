@@ -1,0 +1,16 @@
+#to check the k bit using functions
+
+def check(n,k):
+    if(n&(1<<k))==0:
+        return False
+    else:
+        return True
+print(check(13,2))    
+
+  #without using functions
+  n=int(input())
+  k=int(input())
+  if(n&(1<<k)==0:
+       print(False)
+  else:
+      print(True)
