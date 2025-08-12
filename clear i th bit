@@ -1,0 +1,6 @@
+#it changes set bit to non set bit
+#take input  n and k from user after that perform left shift operation then complement it by using not operator then perform addition operation with n 
+n=int(input())
+k=int(input())
+n=n&(~(1<<k))
+print(n)
