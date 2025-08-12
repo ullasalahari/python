@@ -1,2 +1,2 @@
 # python(august)
-i have started in august
+I have started in august
