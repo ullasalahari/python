@@ -1,0 +1,4 @@
+#do the AND operation b\w the given number n and n-1
+n=int(input())
+n=n&(n-1)# the main logic
+print(n)
