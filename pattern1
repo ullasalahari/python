@@ -1,0 +1,11 @@
+#to print
+x x x x
+x x x x
+x x x x
+x x x x
+#n=no.of loops
+n=4
+for i in range(n):
+      for j in range(n):
+          print("x",end=" ")
+      print()    
