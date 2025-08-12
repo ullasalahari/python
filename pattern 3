@@ -1,0 +1,11 @@
+#to print
+x x x x
+x x x
+x x
+x
+the logic is 
+n=4
+for i in range(n):
+      for j in range(n-i):
+          print("x",end=" ")
+      print()    
