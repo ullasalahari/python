@@ -1,0 +1,5 @@
+n=int(input())
+k=int(input())
+#it makes the non setbit to setbit
+n=(n|(1<<k))
+print(n)
