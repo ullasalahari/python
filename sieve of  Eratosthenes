@@ -1,4 +1,4 @@
-to print the count of prime numbers by usin sieve of Eratosthene
+to print the count of prime numbers 
 n=int(input())
 primeArray=[1]*n
 for ind in range(2,int(n**0.5)+1):
